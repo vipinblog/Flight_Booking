@@ -1,8 +1,8 @@
 import React from 'react';
-import "./Header.css";
+
  import {Link} from "react-router-dom";
  
-function Header2(){
+function Navbar(){
     return(
     <nav className='main'>
     
@@ -43,10 +43,4 @@ function Header2(){
     
     )
 }
-
-
-
-
-
-
-export default Header2;
+export default Navbar;
