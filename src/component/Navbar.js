@@ -1,29 +1,34 @@
 import React from 'react';
-
+import "./Navbar.css";
  import {Link} from "react-router-dom";
  
+ 
 function Navbar(){
+    
+
     return(
     <nav className='main'>
     
         <div className='menu-link'>
         <ul>
+        
             <li>
-                <a href='./Login'>Login</a>
-                <Link to ='/Login'></Link>
+                
+                <Link to ='/Login'>Login</Link>
+                
 
             </li>
             <li>
-                <a href='./Register'>Register</a>
-                <Link to = '/Register'></Link>
+                
+                <Link to = '/Register'>Register</Link>
             </li>
             <li>
-                <a href='./Book Now'>Book Now</a>
-                <Link to = 'Book Now'></Link>
+                
+                <Link to = '/Book Now'>Book Now</Link>
             </li>
             <li>
-                <a href='./Search Flight'>Search Flight</a>
-                <Link to = 'Search Flight'></Link>
+                
+                <Link to = '/Search Flight'>Search Flight</Link>
             </li>
          </ul>
          
