@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(0, 162, 255, 0.731);
+}
+.Container{
+    margin:auto;
+    width:23%;
+    padding: 10px;
+    text-align: center;
+    border:2px solid palegreen;
+    background-color: white;
+    height: 400px;
+    margin-top: 13%;
+}
+.Book-page{
+    padding: 40px 53px;
+}
+.Book-page{
+    margin-right: 1px; 
+    padding: 10px 32px; 
+}
