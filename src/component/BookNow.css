@@ -1,20 +1,80 @@
-body{
-    background-color: rgba(0, 162, 255, 0.731);
-}
+
 .Container{
-    margin:auto;
-    width:23%;
+    margin: auto;
+    width: 43%;
     padding: 10px;
     text-align: center;
     border:2px solid palegreen;
-    background-color: white;
+    
     height: 400px;
-    margin-top: 13%;
+    margin-top: 8%;
 }
-.Book-page{
-    padding: 40px 53px;
+
+#round{
+    float: left;
+    
 }
-.Book-page{
-    margin-right: 1px; 
-    padding: 10px 32px; 
+#way{
+    float: left;
+    width:70%;
+}
+#multi{
+    float: right;
+    
+    
+    
+}
+.box{
+    margin-top: 10%;
+}
+
+.from {
+  float : left;
+  
+  
+}
+.from input {
+    padding: 2% 30%;
+}
+.to {
+margin-left: 50% ;
+}  
+
+ .to input {
+padding: 1% 20%;
+
+} 
+.to input::placeholder{
+    text-align: initial;
+}
+.depart {
+    float: left;
+}
+.depart input {
+    padding: 3% 13%;
+}
+ .return {
+    margin-right: 25%; 
+} 
+.return input {
+    padding: 1% 7%;
+}
+.economy {
+ float: right;
+  margin-top: -48px;
+}
+.economy input{
+    padding: 3% 1%;
+}
+.adult {
+  float: left;
+  
+}
+.child {
+   float:left;
+   width: 43%;
+}
+.searchflight{
+    float: left;
+    margin-top: 20%;
 }

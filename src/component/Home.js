@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import plane from "./image/plane.jpg";
- import react from 'react';
+import react from 'react';
 function Home(){
     return(
         <>
@@ -8,7 +8,7 @@ function Home(){
 
      
      <div className="plane">
-<img src={plane}  alt="airport-jpg"/>
+<img src={plane} alt="airport-jpg" />
 </div>
    
   
