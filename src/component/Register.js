@@ -20,7 +20,7 @@ const Register =()=>{
           
           <div className='email'>
             <label/>
-            <input type='text' placeholder='Email'/>
+            <input type='email' placeholder='Email'/>
           </div>
           <br/>
           <div className='password'>
@@ -28,9 +28,19 @@ const Register =()=>{
             <input type='Password' placeholder='Password'/>
            </div>
            <br/>
-           <div className='confiurmPasword'>
+           <div className='confirmPasword'>
             <label/>
             <input type='Password' placeholder='Confirm Password'/>
+           </div>
+           <br/>
+           <div className='checkbox'>
+           <input type='Checkbox' value="boat"/> 
+           <label>I accept the terms of Use & Privacy Policy</label>
+           <br/>
+           <div className='sign'>
+           <input type='Submit' placeholder='Submit'/>
+           
+           </div>
            </div>
            </div>
         </form>

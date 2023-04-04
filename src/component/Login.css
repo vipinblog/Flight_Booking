@@ -1,6 +1,4 @@
-body{
-    background-color:rgb(0, 115, 102); 
-  }
+
   .Container5 {
       
     margin: auto;
@@ -40,9 +38,9 @@ body{
     text-align: center;
     font-size: 30px;
   }
-  #Uname{
+  #Uname {
    border: none;
-   border-bottom: 3px solid rgb(0, 115, 102) ;
+   border-bottom: 3px solid rgb(0, 115, 102);
    outline: none;
    
   }
